@@ -82,7 +82,8 @@ The `modules` directory contains reusable modules that can be utilized across di
 
 - Use Azure Key Vault to store sensitive information.
 - Avoid committing sensitive data (e.g., secrets) to version control.
-- Use [terraform.tfvars](http://_vscodecontentref_/2) for environment-specific variables and add it to `.gitignore`.
+- Use `terraform.tfvars` for environment-specific variables and add it to `.gitignore`.
+
 
 ## Troubleshooting
 
@@ -123,7 +124,8 @@ jobs:
 ## Testing
 
 Before applying changes, validate the configuration:
-```
+```bash
+terraform validate
 
 ## Contributing
 
