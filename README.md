@@ -23,7 +23,7 @@ This project is a starter kit for deploying Azure resources using Terraform. It 
 
 1. **Clone the repository**:
    ```
-   git clone <repository-url>
+   git clone https://github.com/Danielconto/azure-terraform-starter-kit
    cd azure-terraform-starter-kit
    ```
 
